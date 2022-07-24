@@ -7,7 +7,7 @@ Bot-provided command to add a new text channel
     version: "3"
     services:
       app:
-        image: ghcr.io/teamecri/addchan:latest
+        image: ghcr.io/teamecri/addchan:main
         restart: always
         volumes:
           - type: bind
