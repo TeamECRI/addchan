@@ -3,6 +3,7 @@ services:
   app:
     build: .
     image: ghcr.io/teamecri/addchan:latest
+    restart: always
     volumes:
       - type: bind
         source: ./.env
